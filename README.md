@@ -42,3 +42,40 @@ If no such capacity exists, the function should return -1.
 
 - The number of transactions does not exceed 100.
 - The absolute value of each transaction does not exceed 10 coins.
+
+## Compile Your Code
+
+You may use any standard C++ compiler to compile your code.
+
+To compile your code, run:
+
+```bash
+make
+```
+
+or alternatively:
+
+```bash
+g++ main.cpp student_code_6.cpp -std=c++20 -pedantic-errors -O3 -o main
+```
+
+### Test Your Code
+
+Please run the unit tests:
+
+```bash
+./main small
+./main large
+```
+
+We also recommend running memory tests:
+
+```bash
+./memtest small
+./memtest large
+```
+
+
+### Submit Your Code
+
+Submit your code on **Gradescope**.
