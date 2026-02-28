@@ -24,7 +24,7 @@ Design and implement an algorithm that determines the smallest integer m for whi
 If no such capacity exists, the algorithm should report that the instance is infeasible.
 
 
-## Implement the Following Function
+### Implement the Following Function
 
 ```cpp
 int FindMinWalletCapacity(const std::vector<int>& transactions)
@@ -38,12 +38,12 @@ The function should return the minimum required capacity m that makes the given 
 If no such capacity exists, the function should return -1.
 
 
-## Constraints
+### Constraints
 
 - The number of transactions does not exceed 100.
 - The absolute value of each transaction does not exceed 10 coins.
 
-## Compile Your Code
+### Compile Your Code
 
 You may use any standard C++ compiler to compile your code.
 
@@ -56,7 +56,7 @@ make
 or alternatively:
 
 ```bash
-g++ main.cpp student_code_6.cpp -std=c++20 -pedantic-errors -O3 -o main
+g++ main.cpp student_code_7.cpp -std=c++20 -pedantic-errors -O3 -o main
 ```
 
 ### Test Your Code
